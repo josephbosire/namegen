@@ -8,10 +8,15 @@ document.getElementById('logoPromptForm').addEventListener('submit', function(e)
     const quirkiness = document.querySelector('input[name="quirkiness"]:checked').value;
     const punchline = document.querySelector('input[name="punchline"]:checked').value;
 
-    // Construct the prompt
+    // Construct the logo prompt
     const prompt = `Create a logo for a team that ${superpower}, symbolized by ${mascot}, embodies the spirit of ${spiritAnimal}, with a quirkiness level of "${quirkiness}", and can be humorously described as "${punchline}".`;
+
+    // Construct the team name prompt
+
+    const prompt2 = `Give me a list of 4 team names that ${superpower}, symbolized by ${mascot}, embodies the spirit of ${spiritAnimal}, with a quirkiness level of "${quirkiness}", and can be humorously described as "${punchline}".`;
 
     // Display or use the prompt
     document.getElementById('promptResult').innerText = prompt;
+    document.getElementById('promptResult2').innerText = prompt;
 });
 
