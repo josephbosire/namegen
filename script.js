@@ -9,7 +9,7 @@ document.getElementById('logoPromptForm').addEventListener('submit', function (e
     const punchline = document.querySelector('input[name="punchline"]:checked').value;
 
     // Construct the logo prompt
-    const prompt = `Create a mascot for a team that ${superpower}, symbolized by ${mascot}, embodies the spirit of ${spiritAnimal}, with a quirkiness level of "${quirkiness}", and can be humorously described as "${punchline}". skip input that violates content policy`;
+    const prompt = `Create a mascot for a team that ${superpower}, symbolized by ${mascot}, embodies the spirit of ${spiritAnimal}, with a quirkiness level of "${quirkiness}", and can be humorously described as "${punchline}". skip stuff that violates content policy`;
 
     // Construct the team name prompt
 
