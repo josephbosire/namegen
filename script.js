@@ -1,4 +1,4 @@
-document.getElementById('logoPromptForm').addEventListener('submit', function(e) {
+document.getElementById('logoPromptForm').addEventListener('submit', function (e) {
     e.preventDefault(); // Prevent form from submitting the traditional way
 
     // Collect selected options
@@ -13,7 +13,7 @@ document.getElementById('logoPromptForm').addEventListener('submit', function(e)
 
     // Construct the team name prompt
 
-    const prompt2 = `Give me a list of 4 team names that ${superpower}, symbolized by ${mascot}, embodies the spirit of ${spiritAnimal}, with a quirkiness level of "${quirkiness}", and can be humorously described as "${punchline}".`;
+    const prompt2 = `Give me a list of 4 team names that ${superpower}, symbolized by ${mascot}, embodies the spirit of ${spiritAnimal}, with a quirkiness level of "${quirkiness}", and can be humorously described as "${punchline}". Make then shorter and able to have acronyms`;
 
     // Display or use the prompt
     document.getElementById('promptResult').innerText = prompt;
