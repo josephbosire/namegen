@@ -17,6 +17,6 @@ document.getElementById('logoPromptForm').addEventListener('submit', function(e)
 
     // Display or use the prompt
     document.getElementById('promptResult').innerText = prompt;
-    document.getElementById('promptResult2').innerText = prompt;
+    document.getElementById('promptResult2').innerText = prompt2;
 });
 
