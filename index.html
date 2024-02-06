@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Generator Prompt Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="logoPromptForm">
+        <h2>What's your team's superpower in the supply chain universe?</h2>
+        <!-- Superpower Options -->
+        <div>
+            <input type="radio" id="spreadsheets" name="superpower" value="We can make spreadsheets exciting!">
+            <label for="spreadsheets">We can make spreadsheets exciting!</label>
+        </div>
+        <!-- Other superpower options similarly -->
+
+        <h2>If your team had a mascot, what would it be?</h2>
+        <!-- Mascot Options -->
+        <div>
+            <input type="radio" id="imps" name="mascot" value="The Inventory Imps">
+            <label for="imps">The Inventory Imps</label>
+        </div>
+        <!-- Other mascot options similarly -->
+
+        <h2>Which fictional character best represents your team's spirit animal?</h2>
+        <!-- Spirit Animal Options -->
+        <div>
+            <input type="radio" id="tony" name="spiritAnimal" value="Tony Stark (Iron Man)">
+            <label for="tony">Tony Stark (Iron Man)</label>
+        </div>
+        <!-- Other spirit animal options similarly -->
+
+        <h2>On a scale of 1 to "We put the 'fun' in 'functional,'" how quirky is your team?</h2>
+        <!-- Quirkiness Scale Options -->
+        <div>
+            <input type="radio" id="scale1" name="quirkiness" value="1 - As serious as a robot librarian.">
+            <label for="scale1">1 - As serious as a robot librarian.</label>
+        </div>
+        <!-- Other quirkiness scale options similarly -->
+
+        <h2>If your team's name was a punchline, what would it be?</h2>
+        <!-- Punchline Options -->
+        <div>
+            <input type="radio" id="caffeine" name="punchline" value="We're the team that makes supply chains run... on caffeine!">
+            <label for="caffeine">We're the team that makes supply chains run... on caffeine!</label>
+        </div>
+        <!-- Other punchline options similarly -->
+
+        <button type="submit">Generate Prompt</button>
+    </form>
+    <div id="promptResult"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
